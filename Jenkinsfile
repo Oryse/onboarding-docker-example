@@ -12,7 +12,7 @@ pipeline {
             steps {
                 rtServer (
                     id: "emea-staging",
-                    url: "https://platform-us.staging.gcp.devopsacc.team",
+                    url: "https://talyi.jfrog.io",
                     credentialsId: "admin.jfrog"
                 )
 
