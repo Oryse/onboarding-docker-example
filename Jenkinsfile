@@ -13,7 +13,7 @@ pipeline {
                 rtServer (
                     id: "talyi-artifactory",
                     url: "https://talyi.jfrog.io/artifactory",
-                    credentialsId: "admin.jfrog"
+                    credentialsId: "orys.admin"
                 )
 
                 rtMavenResolver (
