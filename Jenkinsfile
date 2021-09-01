@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('Clone') {
             steps {
-                git branch: 'master', url: "https://github.com/web3j/sample-project-maven.git"
+                git branch: 'master', url: "https://github.com/Oryse/onboarding-docker-example.git"
             }
         }
 
